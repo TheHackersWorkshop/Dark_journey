@@ -1,0 +1,21 @@
+/forgotten_ship
+│── /assets                  # Optional: ASCII maps, text files, or UI elements
+│── /data                    # Stores saved games, logs, and other data
+│   ├── savegame.json        # Player save file (inventory, progress, location)
+│   ├── logs.json            # Stores ship logs & text-based clues
+│   ├── settings.json        # Game settings (difficulty, preferences)
+│   ├── dialogue.json        # Navigator Rachel's dialogue
+│   ├── puzzles.json         # mini puzzles and games
+│   ├── ascii_art.json       # ascii imanges
+│── /src                     # Main game logic
+│   ├── main.py              # Game entry point (starts game loop)
+│   ├── player.py            # Player class & movement logic
+│   ├── ship.py              # Ship map, rooms, and environment logic
+│   ├── combat.py            # Handles combat mechanics & enemy AI
+│   ├── inventory.py         # Inventory & item management
+│   ├── puzzles.py           # Puzzle and lock mechanism logic
+│   ├── enemy.py             # Enemy classes & behavior
+│   ├── ui.py                # Handles text rendering & ASCII display
+│── README.md                # Documentation on how to run the game
+│── requirements.txt         # Python dependencies (if any)
+
